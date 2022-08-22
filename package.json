@@ -1,8 +1,8 @@
 {
-  "name": "nagakingdom-server",
+  "name": "crawler",
   "version": "1.0.0",
-  "description": "Server connect and handling NFT",
-  "main": "./build/bin/www.js",
+  "description": "Crawler",
+  "main": "./build/index.js",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "tsc",
