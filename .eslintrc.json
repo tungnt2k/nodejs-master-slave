@@ -1,0 +1,36 @@
+{
+  "env": {
+    "node": true
+    // "jest": true
+  },
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "airbnb-base",
+    "plugin:security/recommended",
+    "plugin:prettier/recommended",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "plugins": ["security", "prettier", "@typescript-eslint"],
+  "rules": {
+    "no-console": "off",
+    "func-names": "off",
+    "no-await-in-loop": "off",
+    "no-underscore-dangle": "off",
+    "no-explicit-any": "off",
+    "no-param-reassign": "off",
+    "consistent-return": "off",
+    "jest/expect-expect": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "no-shadow": "off",
+    "no-useless-constructor": "off",
+    "class-methods-use-this": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "security/detect-object-injection": "off",
+    "prettier/prettier": 2
+  }
+}
